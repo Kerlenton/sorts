@@ -1,4 +1,4 @@
-void* sort(int* list, int length)
+void sort(int* list, int length)
 {
 	int i, j, temp;
 
