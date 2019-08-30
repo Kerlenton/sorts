@@ -1,21 +1,22 @@
-void sort(int* list, int length)
+#include <stdio.h>
+
+int* sort(int* list, int length)
 {
-	int i, j, temp;
+	int temp, i, j;
 
-	for (i = 1; i < length; i++)
+	for (j = 1; j < length; j++)
 	{
-		j = i - 1;
-
-		while (j >= 0 && list[i] < list[j])
+		temp = list[j];
+		i = j - 1;
+		while (i >= 0 && list[i] > temp)
 		{
-			temp = list[i];
-			list[i] = list[j];
-			list[j] = temp;
-
-			i = j;
-			j--;
+			list[i + 1] = list[i];
+			--i;
 		}
+		list[i + 1] = temp;
 	}
+
+	return list;
 }
 
 // Worst case: O(n^2)
