@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int* sort(int* list, int length)
+void sort(int* list, int length)
 {
 	int temp, i, j;
 
@@ -15,8 +15,6 @@ int* sort(int* list, int length)
 		}
 		list[i + 1] = temp;
 	}
-
-	return list;
 }
 
 // Worst case: O(n^2)
