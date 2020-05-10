@@ -18,7 +18,7 @@ void sort(int list[], int left, int right)
 	for (i = left + 1; i <= right; i++)
 		if (list[i] < list[left])
 		{
-			swap(list, last, i);
+			swap(list, ++last, i);
 		}
 	swap(list, left, last);
 	sort(list, left, last - 1);
