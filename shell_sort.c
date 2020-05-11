@@ -18,6 +18,6 @@ void sort(int* list, int length)
 
 // Worst case: O(n^2)
 // Average case: depends on the gap  
-// Best case case: O(n log2 n)      
+// Best case case: O(n log n)      
 
 // Not stable, in place
