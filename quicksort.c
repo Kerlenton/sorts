@@ -25,6 +25,6 @@ void sort(int list[], int left, int right)
 	sort(list, last + 1, right);
 }
 
-// Worst case:   O(n2)
-// Best case:    O(n log n) 
+// Worst case: O(n2)
+// Best case: O(n log n) 
 // Average case: O(n log n)
