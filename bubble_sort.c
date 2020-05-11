@@ -12,3 +12,7 @@ void sort(int* list, int length)
 				list[j + 1] = temp;
 			}
 }
+
+// Worst case: O(n^2)
+// Best case: O(n)
+// Average case: O(n^2)
