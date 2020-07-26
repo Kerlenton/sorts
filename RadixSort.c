@@ -48,4 +48,5 @@ int main(void)
     return 0;
 }
 
+// Average: O(n)
 // Stable, out of place
