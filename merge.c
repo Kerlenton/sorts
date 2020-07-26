@@ -32,3 +32,6 @@ void mergesort(int *A, int n)
 	mergesort(R, n - mid);
 	merge(A, L, mid, R, n - mid);
 }
+
+
+// Stable, out of place
