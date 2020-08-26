@@ -35,3 +35,6 @@ int main(void)
 
 	return 0;
 }
+
+
+// Counting sort takes O(n+k) time and O(n+k) space, where n is the number of items we're sorting and k is the number of possible value.
