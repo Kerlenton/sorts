@@ -10,7 +10,7 @@ void swap(int *a, int *b)
 
 void sort(int list[], int length)
 {
-    for (int i = 0; i < length; i++)
+    for (int i = 1; i < length; i++)
     {
         for (int j = i; j > 0; j--)
         {
